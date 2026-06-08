@@ -55,7 +55,7 @@ msgid "invitation.validation.required"
 msgstr "Pole {$attribute} je povinné."
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
-msgstr "ID {reviewAssignmentId} neodpovídá platnému úkolu k recenzi"
+msgstr "ID {$reviewAssignmentId} neodpovídá platnému úkolu k recenzi"
 
 msgid "invitation.api.error.invitationCantBeCanceled"
 msgstr "Tuto pozvánku nejde zrušit"

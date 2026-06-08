@@ -90,7 +90,7 @@ msgstr "Dit type uitnodiging heeft geen omschreven e-mailmogelijkheid"
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
 msgstr ""
-"De ID {reviewAssignmentId} correspondeert niet met een geldig "
+"De ID {$reviewAssignmentId} correspondeert niet met een geldig "
 "recensietoekenning"
 
 msgid "invitation.userRoleAssignment.validation.error.givenName.mandatory"

@@ -17,21 +17,14 @@ msgstr ""
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
 msgstr ""
-"Идентификаторът {reviewAssignmentId} не съответства на валидно задание за "
+"Идентификаторът {$reviewAssignmentId} не съответства на валидно задание за "
 "рецензия"
 
 msgid "invitation.api.error.invitationCantBeCanceled"
 msgstr "Тази покана не може да бъде отменена"
 
-msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
-msgstr ""
-"Този атрибут трябва да има стойност, равна на или по-късна от днешна дата"
-
 msgid "invitation.userRoleAssignment.validation.error.multilingual.primaryLocaleRequired"
 msgstr "Изисква се стойност за език '{$primaryLocale}'"
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
-msgstr "Атрибутът няма достъп за съществуващи потребители"
 
 msgid "invitation.validation.error.propertyProhibited"
 msgstr "Полето на този атрибут е забранено"
@@ -41,9 +34,6 @@ msgstr "СТЪПКА"
 
 msgid "userInvitation.roleTable.role"
 msgstr "Роля"
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
-msgstr "Достъпът до атрибута не е разрешен за несъществуващи потребители"
 
 msgid "invitation.header"
 msgstr "Покани"
@@ -95,9 +85,6 @@ msgstr "Изберете нова роля"
 
 msgid "invitation.role.dateStart"
 msgstr "Начална дата"
-
-msgid "invitation.role.dateEnd"
-msgstr "Крайна дата"
 
 msgid "userInvitation.sendMail.nextButtonLabel"
 msgstr "Поканете потребител за ролята"
@@ -322,9 +309,6 @@ msgstr "Отмяна на поканата"
 
 msgid "invitation.masthead.hidden"
 msgstr "Не се показва на заглавната страница"
-
-msgid "invitation.role.modifyRole.button"
-msgstr "Промяна на роля"
 
 msgid "userInvitation.cancel.message"
 msgstr "Сигурни ли сте, че искате да отмените тази покана?"

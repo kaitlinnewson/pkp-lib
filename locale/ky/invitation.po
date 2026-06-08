@@ -410,4 +410,4 @@ msgstr "Бул сиз тиешелүү болгон институт жайга�
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
 msgstr ""
-"Идентификатор {reviewAssignmentId} жарактуу кароо тапшырмасына туура келбейт"
+"Идентификатор {$reviewAssignmentId} жарактуу кароо тапшырмасына туура келбейт"

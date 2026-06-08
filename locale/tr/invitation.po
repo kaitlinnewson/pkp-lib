@@ -71,19 +71,10 @@ msgstr ""
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
 msgstr ""
-"id {reviewAssignmentId} geçerli bir değerlendirme atamasına karşılık gelmiyor"
+"id {$reviewAssignmentId} geçerli bir değerlendirme atamasına karşılık gelmiyor"
 
 msgid "invitation.api.error.invitationCantBeCanceled"
 msgstr "Bu davet iptal edilemez"
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
-msgstr "Bu öznitelik mevcut kullanıcılar tarafından erişilemez"
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
-msgstr "Özellik, mevcut olmayan kullanıcılar tarafından erişilemez"
-
-msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
-msgstr "Bu öznitelik, bugün veya daha sonraki bir tarihe sahip olmalıdır"
 
 msgid "invitation.validation.error.propertyProhibited"
 msgstr ":attribute alanı yasaktır"
@@ -123,9 +114,6 @@ msgstr "Yeni rol seç"
 
 msgid "invitation.role.dateStart"
 msgstr "Başlangıç Tarihi"
-
-msgid "invitation.role.dateEnd"
-msgstr "Bitiş Tarihi"
 
 msgid "invitation.role.addRole.button"
 msgstr "Yeni Rol Ekle"
@@ -234,9 +222,6 @@ msgstr "Künyede görün"
 
 msgid "invitation.masthead.hidden"
 msgstr "Künyede görünmesin"
-
-msgid "invitation.role.modifyRole.button"
-msgstr "Rolü Düzenle"
 
 msgid "invitation.management.options"
 msgstr "Davet yönetimi seçenekleri"

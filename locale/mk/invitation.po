@@ -63,12 +63,6 @@ msgstr "Оваа покана не може да се откаже"
 msgid "invitation.api.error.initialization.noUserIdAndEmailTogether"
 msgstr "Не можете да наведете и е-пошта и кориснички идентификатор заедно."
 
-msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
-msgstr "Атрибутот не е дозволен за пристап за постоечки корисници"
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
-msgstr "Атрибутот не е дозволен за пристап за непостоечки корисници"
-
 msgid "invitation.validation.error.propertyProhibited"
 msgstr "Полето :attribute е забрането"
 
@@ -116,9 +110,6 @@ msgstr "Изберете нова улога"
 
 msgid "invitation.role.dateStart"
 msgstr "Датум на почеток"
-
-msgid "invitation.role.dateEnd"
-msgstr "Датум на завршување"
 
 msgid "invitation.role.addRole.button"
 msgstr "Додај друга улога"
@@ -223,9 +214,6 @@ msgstr "Се појавува на главниот наслов"
 msgid "invitation.masthead.hidden"
 msgstr "Не се појавува на главниот наслов"
 
-msgid "invitation.role.modifyRole.button"
-msgstr "Измени улога"
-
 msgid "invitation.management.options"
 msgstr "Опции за управување со покани"
 
@@ -304,15 +292,12 @@ msgstr "Веќе постои корисник со корисничко име 
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
 msgstr ""
-"Идентификаторот {reviewAssignmentId} не одговара на важечка задача за преглед"
+"Идентификаторот {$reviewAssignmentId} не одговара на важечка задача за преглед"
 
 msgid "invitation.userRoleAssignment.validation.error.user.emailMustNotExist"
 msgstr ""
 "Кога на поканата ѝ е доделена е-пошта ({$email}), оваа е-пошта не смее да ја "
 "користи друг корисник."
-
-msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
-msgstr "Овој атрибут мора да има вредност еднаква или постара од денес"
 
 msgid "userInvitation.reviewAndInviteLabel"
 msgstr "Прегледајте и поканете за улоги"

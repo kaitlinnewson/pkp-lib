@@ -53,7 +53,7 @@ msgstr ""
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
 msgstr ""
-"O ID {reviewAssignmentId} não corresponde a uma atribuição de revisão válida"
+"O ID {$reviewAssignmentId} não corresponde a uma atribuição de revisão válida"
 
 msgid "invitation.api.error.invitationCantBeCanceled"
 msgstr "Este convite não pode ser cancelado"
@@ -126,20 +126,11 @@ msgstr ""
 "É necessário fornecer um valor para a configuração de língua "
 "'{$primaryLocale}'"
 
-msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
-msgstr "O acesso a este atributo não é permitido aos utilizadores existentes"
-
 msgid "invitation.step"
 msgstr "PASSO"
 
-msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
-msgstr "O atributo não pode ser acedido para utilizadores inexistentes"
-
 msgid "userInvitation.enterDetailsLabel"
 msgstr "Introduzir detalhes"
-
-msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
-msgstr "Este atributo deve ter um valor igual ou posterior ao de hoje"
 
 msgid "userInvitation.reviewAndInviteLabel"
 msgstr "Rever e convidar para papeis"
@@ -170,9 +161,6 @@ msgstr "Guardar e continuar"
 
 msgid "invitation.role.selectRole"
 msgstr "Selecionar uma nova função"
-
-msgid "invitation.role.dateEnd"
-msgstr "Data limite"
 
 msgid "userInvitation.roleTable.role"
 msgstr "Função"
@@ -280,9 +268,6 @@ msgstr "Aparecer no cabeçalho editorial"
 
 msgid "invitation.masthead.hidden"
 msgstr "Não consta no cabeçalho"
-
-msgid "invitation.role.modifyRole.button"
-msgstr "Modificar função"
 
 msgid "invitation.management.options"
 msgstr "Opções de gestão de convites"

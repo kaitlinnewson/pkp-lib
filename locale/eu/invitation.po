@@ -89,9 +89,6 @@ msgstr "Gorde eta jarraitu"
 msgid "invitation.role.dateStart"
 msgstr "Hasiera-data"
 
-msgid "invitation.role.dateEnd"
-msgstr "Amaiera-data"
-
 msgid "invitation.role.addRole.button"
 msgstr "Gehitu beste rol bat"
 
@@ -236,9 +233,6 @@ msgstr "Erabiltzailearen xehetasunak"
 msgid "acceptInvitation.modal.button"
 msgstr "Ikusi bidalketa guztiak"
 
-msgid "invitation.role.modifyRole.button"
-msgstr "Aldatu rola"
-
 msgid "invitation.userRoleAssignment.validation.error.removeUserRoles.cantRemoveFromNonExistingUser"
 msgstr "Existitzen ez den erabiltzaileari ezin zaio rolik ezabatu."
 
@@ -259,18 +253,7 @@ msgstr ""
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
 msgstr ""
-"{reviewAssignmentId} IDa ez dator bat baliozko berrikuspen-esleipen batekin"
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
-msgstr ""
-"Atributu hori atzitzea ez dago baimenduta existitzen diren erabiltzaileetan"
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
-msgstr ""
-"Atributua ez dago baimenduta ez dauden erabiltzaileentzat sarbidea izateko"
-
-msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
-msgstr "Atributu honek gaurko balio berdina edo geroagokoa izan behar du"
+"{$reviewAssignmentId} IDa ez dator bat baliozko berrikuspen-esleipen batekin"
 
 msgid "invitation.validation.error.propertyProhibited"
 msgstr ":attribute eremua debekatuta dago"

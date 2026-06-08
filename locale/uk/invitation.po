@@ -68,7 +68,7 @@ msgstr "Для доданих груп користувачів необхідн
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
 msgstr ""
-"Ідентифікатор {reviewAssignmentId} не відповідає дійсному завданню з "
+"Ідентифікатор {$reviewAssignmentId} не відповідає дійсному завданню з "
 "рецензування"
 
 msgid "invitation.userRoleAssignment.validation.error.addUserRoles.mastheadMandatory"
@@ -90,18 +90,8 @@ msgstr "Не вдалося виконати цю операцію запрош�
 msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupNotExisting"
 msgstr "Указаний ідентифікатор групи користувачів {$userGroupId} не існує"
 
-msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
-msgstr "Доступ до атрибута для існуючих користувачів заборонено"
-
 msgid "invitation.validation.required"
 msgstr "Поле {$attribute} обов'язкове для заповнення."
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
-msgstr "Доступ до атрибута не дозволено для неіснуючих користувачів"
-
-msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
-msgstr ""
-"Цей атрибут повинен мати значення, що дорівнює або пізніше сьогоднішнього дня"
 
 msgid "invitation.userRoleAssignment.validation.error.multilingual.primaryLocaleRequired"
 msgstr "Потрібне значення локалі '{$primaryLocale}'"
@@ -219,9 +209,6 @@ msgstr "наприклад, aeinstein@example.com або aeinstein чи 0000-000
 
 msgid "userInvitation.enterDetails.nextButtonLabel"
 msgstr "Зберегти та продовжити"
-
-msgid "invitation.role.dateEnd"
-msgstr "Дата закінчення"
 
 msgid "userInvitation.roleTable.role"
 msgstr "Роль"
@@ -345,9 +332,6 @@ msgstr "Скасувати запрошення"
 
 msgid "invitation.cancelInvite.actionName"
 msgstr "Скасувати дію запрошення"
-
-msgid "invitation.role.modifyRole.button"
-msgstr "Модифікувати роль"
 
 msgid "invitation.management.options"
 msgstr "Варіанти керування запрошенням"

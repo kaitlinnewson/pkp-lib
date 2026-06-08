@@ -59,9 +59,6 @@ msgstr "Der skal angives et brugernavn"
 msgid "invitation.userRoleAssignment.validation.error.addUserRoles.notExisting"
 msgstr "Mindst én brugergruppe, der skal tilføjes, skal defineres"
 
-msgid "invitation.role.dateEnd"
-msgstr "Slutdato"
-
 msgid "invitation.userRoleAssignment.validation.error.removeUserRoles.cantRemoveFromNonExistingUser"
 msgstr ""
 "Fjernelse af brugerroller kan ikke gennemføres for brugere, der ikke "
@@ -154,15 +151,6 @@ msgstr ""
 "Der blev fundet uventede egenskaber i elementet ved indeks {$attribute}: "
 "{$properties}."
 
-msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
-msgstr "Denne attribut må ikke tilgås af eksisterende brugere"
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
-msgstr "Denne attribut må ikke tilgås af ikke-eksisterende brugere"
-
-msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
-msgstr "Denne attribut skal have en værdi lig med eller efter i dag"
-
 msgid "invitation.step"
 msgstr "TRIN"
 
@@ -185,7 +173,7 @@ msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupNotE
 msgstr "Det angivne brugergruppe-ID {$userGroupId} eksisterer ikke"
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
-msgstr "ID'et {reviewAssignmentId} svarer ikke til en gyldig bedømmelsesopgave"
+msgstr "ID'et {$reviewAssignmentId} svarer ikke til en gyldig bedømmelsesopgave"
 
 msgid "invitation.api.error.initialization.noUserIdAndEmailTogether"
 msgstr "Du kan ikke angive både e-mail og bruger-ID sammen."
@@ -288,9 +276,6 @@ msgstr "Angiv mindst et søgekriterium."
 
 msgid "invitation.wizard.viewPageTitleDescription"
 msgstr "Du ser {$name}s brugeroplysninger"
-
-msgid "invitation.role.modifyRole.button"
-msgstr "Ændr rolle"
 
 msgid "invitation.management.options"
 msgstr "Invitationshåndteringsmuligheder"

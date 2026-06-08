@@ -73,9 +73,6 @@ msgstr ""
 msgid "userInvitation.searchUser.stepName"
 msgstr "Pesquisar Usuário"
 
-msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
-msgstr "Este atributo deve ter um valor igual ou posterior a hoje"
-
 msgid "userInvitation.searchField.description"
 msgstr "ex. nome@example.com ou nome ou 0000-0002-1825-0097"
 
@@ -99,10 +96,6 @@ msgstr ""
 
 msgid "userInvitation.enterDetails.stepLabel"
 msgstr "{$step} - Inserir detalhes e convidar para papéis"
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
-msgstr ""
-"O atributo não tem permissão para ser acessado por usuários não existentes"
 
 msgid "invitation.api.error.invitationTypeNotHasMailable"
 msgstr "Este tipo de convite não tem um destinatário de e-mail definido"
@@ -190,16 +183,13 @@ msgstr "Essa operação de convite falhou"
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
 msgstr ""
-"O id {reviewAssignmentId} não corresponde a uma atribuição de revisão válida"
+"O id {$reviewAssignmentId} não corresponde a uma atribuição de revisão válida"
 
 msgid "invitation.api.error.invitationCantBeCanceled"
 msgstr "Esse convite não pode ser cancelado"
 
 msgid "invitation.api.error.initialization.noUserIdAndEmailTogether"
 msgstr "Você não pode fornecer e-mail e ID de usuário juntos."
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
-msgstr "O atributo não tem permissão para ser acessado por usuários existentes"
 
 msgid "invitation.validation.error.propertyProhibited"
 msgstr "O campo :attribute é proibido"
@@ -212,9 +202,6 @@ msgstr "Salvar e continuar"
 
 msgid "invitation.role.dateStart"
 msgstr "Data inicial"
-
-msgid "invitation.role.dateEnd"
-msgstr "Data final"
 
 msgid "invitation.role.addRole.button"
 msgstr "Adicionar outro papel"
@@ -321,9 +308,6 @@ msgstr "Você está visualizando os detalhes do usuário {$name}"
 
 msgid "invitation.cancelInvite.actionName"
 msgstr "Cancelar convite"
-
-msgid "invitation.role.modifyRole.button"
-msgstr "Modificar Papel"
 
 msgid "invitation.cancelInvite.title"
 msgstr "Cancelar convite"

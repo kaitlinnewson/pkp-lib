@@ -154,7 +154,7 @@ msgstr ""
 "Elemente, kurio indeksas {$attribute}, rasta netikėtų savybių: {$properties}."
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
-msgstr "ID {reviewAssignmentId} neatitinka galiojančio recenzijos priskyrimo"
+msgstr "ID {$reviewAssignmentId} neatitinka galiojančio recenzijos priskyrimo"
 
 msgid "invitation.api.error.invitationCantBeCanceled"
 msgstr "Šio pakvietimo atšaukti negalima"

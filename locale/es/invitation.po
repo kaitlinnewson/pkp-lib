@@ -72,7 +72,7 @@ msgstr ""
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
 msgstr ""
-"El ID {reviewAssignmentId} no corresponde a una asignación de revisión válida"
+"El ID {$reviewAssignmentId} no corresponde a una asignación de revisión válida"
 
 msgid "invitation.api.error.invitationCantBeCanceled"
 msgstr "Esta invitación no puede ser cancelada"
@@ -81,17 +81,6 @@ msgid "invitation.api.error.initialization.noUserIdAndEmailTogether"
 msgstr ""
 "No se permite ingresar el correo electrónico y el ID de usuario al mismo "
 "tiempo."
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
-msgstr "No se permite acceder a este atributo en usuarios existentes"
-
-msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
-msgstr "No se permite acceder a este atributo en usuarios que no existen"
-
-msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
-msgstr ""
-"Este atributo debe tener un valor con fecha igual o posterior a la fecha "
-"actual"
 
 msgid "invitation.validation.error.propertyProhibited"
 msgstr "No se permite el uso del campo :attribute"
@@ -149,9 +138,6 @@ msgstr "Fecha de inicio"
 
 msgid "userInvitation.enterDetails.stepLabel"
 msgstr "{$step} - Ingresar datos y enviar invitación para asignar los roles"
-
-msgid "invitation.role.dateEnd"
-msgstr "Fecha límite"
 
 msgid "invitation.role.addRole.button"
 msgstr "Añadir otro rol"
@@ -286,9 +272,6 @@ msgstr "Cancelar invitación"
 
 msgid "invitation.masthead.hidden"
 msgstr "No aparecer en la cabecera editorial"
-
-msgid "invitation.role.modifyRole.button"
-msgstr "Modificar rol"
 
 msgid "userInvitation.cancel.message"
 msgstr "¿Está seguro/a de que desea cancelar esta invitación?"

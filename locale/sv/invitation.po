@@ -93,4 +93,4 @@ msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupNotE
 msgstr "Det angivna användargrupps-ID:t {$userGroupId} finns inte"
 
 msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
-msgstr "ID:t {reviewAssignmentId} motsvarar inte en giltig granskningsuppgift"
+msgstr "ID:t {$reviewAssignmentId} motsvarar inte en giltig granskningsuppgift"
